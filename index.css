@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 201, 247);
+}
+
+.inicio{
+  display:flex ;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: purple;
+}
+.contenedor{
+  height: 155px;
+  width: 320px;
+  position: relative;
+  background-color: rgb(224, 201, 247);
+  }
+
+  .color_fondo{
+    height: 0;
+    width: 100%;
+    position: absolute;
+  }
+
+  .numero{
+    height: 100%;
+    width: 100%;
+    font-size: 12.8em;
+    font-weight: bold;
+    color:purple;
+    background-color:rgba(215, 37, 37, 0);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
